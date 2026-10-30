@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Huikang (Will) Ye — PhD candidate at the University of Pittsburgh. Computational oncology, drug-response prediction, and a background in biology and business.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Huikang (Will) Ye | Research & CV">
+  <meta property="og:description" content="Computational oncology and drug discovery, with a background in experimental biology and innovation management.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://willye45.github.io/">
+  <title>Huikang (Will) Ye | Research & CV</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="#about" aria-label="Huikang Ye home">Huikang <span>(Will)</span> Ye</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">＋</span></button>
+    <nav id="main-nav" aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="cv.html">CV</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main id="main">
+    <section class="about-section shell" id="about" aria-labelledby="intro-title">
+      <div class="about-copy">
+        <p class="section-kicker">About me</p>
+        <h1 id="intro-title">Huikang (Will) Ye</h1>
+        <p class="role">PhD candidate · Cancer Biology and Oncology</p>
+        <p class="affiliation">University of Pittsburgh · <a href="https://www.ycchenlab.org/" target="_blank" rel="noopener noreferrer">Chen Lab</a></p>
+        <p>I work at the intersection of <strong>machine learning, cancer biology, and drug discovery</strong>. My research focuses on predicting drug responses and prioritizing compounds for cancer cells associated with treatment resistance and metastatic potential.</p>
+        <p>I develop computational workflows that connect chemical information, biological context, and experimental screening data, working closely with experimental researchers to guide follow-up studies.</p>
+        <p>My background also includes a <strong>Master of Management of Innovation at the University of Toronto</strong>. Business education is an important part of my training, alongside experimental biology and computation.</p>
+        <div class="profile-actions"><a class="button" href="cv.html">View my CV <span aria-hidden="true">↗</span></a><a class="button button-outline" href="mailto:huy45@pitt.edu">Email me</a><a href="https://www.linkedin.com/in/huikang-ye" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+      </div>
+      <aside class="education-panel" id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="degree"><h3>University of Pittsburgh</h3><p>PhD candidate<br>Cancer Biology and Oncology</p><p class="degree-date">2024 – Present</p></div>
+        <div class="degree"><h3>University of Toronto</h3><p>Master of Management of Innovation</p><p class="degree-date">2022 – 2023</p></div>
+        <div class="degree"><h3>University of Southern California</h3><p>MS, Biochemistry and Molecular Medicine</p><p class="degree-date">2020 – 2022</p></div>
+        <div class="degree"><h3>University of California, Davis</h3><p>BS, Neurobiology, Physiology and Behavior</p><p class="degree-date">2016 – 2020</p></div>
+      </aside>
+    </section>
+
+    <section class="shell section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research interests</h2><p>Using computational methods to ask focused biological questions and guide experiments.</p></div>
+      <div class="research-grid">
+        <article><h3>Cancer cell states</h3><p>Polyploid giant cancer cells (PGCCs), treatment resistance, and cancer cell behaviors associated with metastatic potential.</p></article>
+        <article><h3>Drug-response prediction</h3><p>Multimodal machine learning that connects chemical features, biological annotations, and phenotypic screening measurements.</p></article>
+        <article><h3>Compound prioritization</h3><p>Carefully evaluated models that help narrow the next set of compounds for experimental follow-up.</p></article>
+      </div>
+    </section>
+
+    <section class="publication-section" id="publications" aria-labelledby="publications-title"><div class="shell section">
+      <div class="section-heading heading-with-link"><div><h2 id="publications-title">Publications & presentations</h2><p>A brief visual overview of each research output.</p></div><a href="https://www.ycchenlab.org/publications.html" target="_blank" rel="noopener noreferrer">Lab publication list ↗</a></div>
+      <article class="publication">
+        <figure class="paper-animation" id="screening-animation">
+          <div class="animation-header"><span>Screening & data exploration</span><button class="animation-toggle" type="button" aria-controls="screening-diagram" aria-pressed="false" aria-label="Pause screening animation" hidden>Pause</button></div>
+          <svg id="screening-diagram" viewBox="0 0 400 240" role="img" aria-labelledby="screening-title screening-desc">
+            <title id="screening-title">From compound screening to PGCC Explorer</title><desc id="screening-desc">An illustrated workflow: screen compounds, measure PGCC and non-PGCC responses, then explore drug responses with biological context in an interactive portal.</desc>
+            <path class="diagram-link" d="M80 86H320M320 86V173H80"/>
+            <path class="diagram-signal" d="M80 86H320M320 86V173H80"/>
+            <g class="diagram-stage stage-one"><rect x="18" y="45" width="118" height="79" rx="9"/><g class="well-grid"><circle cx="43" cy="66" r="5"/><circle cx="66" cy="66" r="5"/><circle cx="89" cy="66" r="5"/><circle cx="112" cy="66" r="5"/><circle cx="43" cy="86" r="5"/><circle cx="66" cy="86" r="5"/><circle cx="89" cy="86" r="5"/><circle cx="112" cy="86" r="5"/></g><text x="77" y="113">Screen</text></g>
+            <g class="diagram-stage stage-two"><rect x="151" y="45" width="112" height="79" rx="9"/><ellipse class="diagram-cell" cx="193" cy="76" rx="18" ry="20"/><circle class="diagram-nucleus" cx="187" cy="71" r="5"/><circle class="diagram-nucleus" cx="199" cy="81" r="5"/><circle class="diagram-cell" cx="234" cy="77" r="11"/><circle class="diagram-nucleus" cx="234" cy="77" r="4"/><text x="207" y="113">Measure</text></g>
+            <g class="diagram-stage stage-three"><rect x="278" y="45" width="104" height="79" rx="9"/><path class="portal-frame" d="M298 62h64v31h-64zM298 70h64M309 78h16M309 85h30M347 77v10M353 80v7"/><text x="330" y="113">Explore</text></g>
+            <rect class="diagram-result" x="72" y="151" width="256" height="48" rx="8"/><text class="result-label" x="200" y="180">PGCC Explorer</text>
+            <text class="diagram-caption" x="200" y="226">Drug responses + biological context</text>
+          </svg>
+          <figcaption>Conceptual overview of the research workflow</figcaption>
+        </figure>
+        <div class="publication-copy"><p class="publication-type">Journal article · 2026</p><h3><a href="https://pubmed.ncbi.nlm.nih.gov/41638524/" target="_blank" rel="noopener noreferrer">High-throughput drug screening for targeting polyploid cancer cells with an interactive web portal</a></h3><p class="authors">Chen H-C, Wang L-J, Shih C-H, <strong>Ye H</strong>, et al.</p><p><em>Cancer Letters</em>, 642, 218289 (2026)</p><p class="paper-summary">Combines PGCC drug-screening results with an interactive portal for exploring compound responses and their biological context.</p><div class="paper-links"><a href="https://doi.org/10.1016/j.canlet.2026.218289" target="_blank" rel="noopener noreferrer">Paper / DOI ↗</a><a href="https://pubmed.ncbi.nlm.nih.gov/41638524/" target="_blank" rel="noopener noreferrer">PubMed ↗</a></div></div>
+      </article>
+      <article class="publication">
+        <figure class="paper-animation prediction-animation" id="prediction-animation">
+          <div class="animation-header"><span>Multimodal virtual screening</span><button class="animation-toggle" type="button" aria-controls="prediction-diagram" aria-pressed="false" aria-label="Pause prediction animation" hidden>Pause</button></div>
+          <svg id="prediction-diagram" viewBox="0 0 400 240" role="img" aria-labelledby="prediction-title prediction-desc">
+            <title id="prediction-title">Connecting multiple inputs to compound prioritization</title><desc id="prediction-desc">Chemical information, biological context, and screening data feed into a predictive model to prioritize compounds for experimental follow-up. This is a conceptual workflow.</desc>
+            <path class="diagram-link" d="M115 52 184 111M115 111H184M115 170 184 111M238 111H296"/><path class="diagram-signal" d="M115 52 184 111M115 111H184M115 170 184 111M238 111H296"/>
+            <g class="diagram-stage stage-one"><rect x="14" y="30" width="116" height="43" rx="7"/><text x="72" y="57">Chemistry</text><rect x="14" y="89" width="116" height="43" rx="7"/><text x="72" y="116">Biology</text><rect x="14" y="148" width="116" height="43" rx="7"/><text x="72" y="175">Screening</text></g>
+            <g class="diagram-stage stage-two"><rect x="175" y="76" width="78" height="69" rx="10"/><path class="model-network" d="m192 94 22 8 22-8m-44 0 22 25 22-25m-44 32 22-24 22 24m-44 0 22-7 22 7"/><circle class="model-node" cx="192" cy="94" r="3"/><circle class="model-node" cx="192" cy="126" r="3"/><circle class="model-node" cx="214" cy="102" r="3"/><circle class="model-node" cx="214" cy="119" r="3"/><circle class="model-node" cx="236" cy="94" r="3"/><circle class="model-node" cx="236" cy="126" r="3"/></g><text class="diagram-caption" x="214" y="171">Model</text>
+            <g class="diagram-stage stage-three"><rect x="286" y="76" width="99" height="69" rx="8"/><path class="rank-line" d="M301 94h64M301 110h47M301 126h32"/></g><text class="diagram-caption" x="335" y="171">Prioritize</text>
+            <text class="diagram-caption" x="200" y="225">Candidates for experimental follow-up</text>
+          </svg>
+          <figcaption>From multimodal inputs to candidate selection</figcaption>
+        </figure>
+        <div class="publication-copy"><p class="publication-type">Conference poster · 2026</p><h3><a href="https://www.ycchenlab.org/publications.html" target="_blank" rel="noopener noreferrer">Multi-Modal Virtual Screening Identifies Candidate Inhibitors of Polyploid Giant Cancer Cells Across Breast Cancer Subtypes</a></h3><p class="authors"><strong>Huikang Ye</strong>, Hsi-Chun Wang, Ying-Ju Lai, Hsiao-Chun Chen, Yu-Chiao Chiu, Yu-Chih Chen</p><p>ISMB 2026 · Washington, D.C.</p><p class="paper-summary">My work on integrating compound and biological information to predict PGCC-selective responses and prioritize candidates.</p><div class="paper-links"><a href="https://www.ycchenlab.org/publications.html" target="_blank" rel="noopener noreferrer">Conference record ↗</a></div></div>
+      </article>
+    </div></section>
+
+    <section class="shell section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading heading-with-link"><div><h2 id="experience-title">Research experience</h2><p>From experimental biology to computational oncology.</p></div><a href="cv.html">Full CV ↗</a></div>
+      <div class="experience-list">
+        <article><div class="experience-date">2025 – Present</div><div><h3>Computational oncology & drug screening</h3><p class="institution">Chen Lab · University of Pittsburgh</p><p>Developing drug-response prediction and compound prioritization workflows for PGCCs, alongside modeling of cancer cell migration. My work spans data integration, model evaluation, and collaboration on experimental follow-up.</p></div></article>
+        <article><div class="experience-date">2021 – 2022</div><div><h3>Breast cancer liquid biopsy</h3><p class="institution">Salhia Lab · University of Southern California</p><p>Investigated cell-free DNA methylation biomarker sensitivity using amplicon sequencing and hybrid probe capture at low DNA inputs.</p></div></article>
+        <article><div class="experience-date">2019 – 2020</div><div><h3>Itch and pain pathway research</h3><p class="institution">Carstens Lab · University of California, Davis</p><p>Supported mouse behavioral analysis, immunofluorescence histology, and brain tissue preparation.</p></div></article>
+      </div>
+      <div class="business-background"><h3>Business & innovation</h3><p>Alongside my scientific training, I completed a Master of Management of Innovation at the University of Toronto (2022–2023). This business background is part of my broader interest in how scientific ideas develop into useful applications.</p></div>
+      <div class="skills-summary"><h3>Selected technical skills</h3><p><strong>Computing:</strong> Python, PyTorch, scikit-learn, RDKit, XGBoost, Git, and HPC workflows.</p><p><strong>Experimental biology:</strong> NGS library preparation, cell-free DNA extraction, hybrid probe capture, PCR, and qPCR.</p></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="shell contact-grid"><div><h2 id="contact-title">Contact</h2><p>I welcome conversations about computational oncology, research collaborations, and industry research opportunities.</p><p>Pittsburgh, Pennsylvania</p></div><div class="contact-links"><a href="mailto:huy45@pitt.edu">huy45@pitt.edu ↗</a><a href="https://www.linkedin.com/in/huikang-ye" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.ycchenlab.org/" target="_blank" rel="noopener noreferrer">Chen Lab ↗</a><a href="cv.html">Curriculum vitae ↗</a></div></div></section>
+  </main>
+  <footer class="site-footer shell"><span>© 2026 Huikang (Will) Ye</span><a href="#about">Back to top ↑</a></footer>
+</body>
+</html>
